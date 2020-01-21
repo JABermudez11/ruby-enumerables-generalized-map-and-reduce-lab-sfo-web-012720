@@ -8,7 +8,7 @@ def map(array)
   res
 end
 
-def reduce(array, start = 0)
+def reduce(array, start = nil)
   if start
     sum = start
     i = 0
