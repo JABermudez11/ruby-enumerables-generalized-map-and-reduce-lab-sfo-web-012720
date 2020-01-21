@@ -14,4 +14,5 @@ def reduce(array, start = 0)
     start += array[i]
     i += 1
   end
+  start
 end
