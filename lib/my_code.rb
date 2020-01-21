@@ -5,4 +5,5 @@ def map(array)
     res.push(yield(array[i]))
     i += 1
   end
+  res
 end
